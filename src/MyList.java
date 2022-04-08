@@ -58,7 +58,7 @@ public class MyList<T> {
 
     public void insertToHead(T item) {
 //        Creating new Node<T>
-        Node<T> newNode = new Node<>(item, this.head);
+        Node<T> newNode = new Node<>(item, null);
         newNode.setNext(this.head);
         this.head = newNode;
     }

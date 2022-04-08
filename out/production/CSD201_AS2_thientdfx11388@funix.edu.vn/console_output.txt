@@ -121,7 +121,7 @@ Choose one of these options:
 Choice = 5
 
 5. Search by ID
-Input the ID to search = p02
+Input the ID to search = P02
 Result: | P02          | Apple                | 5            | 4.3          |
 
 Choose one of these options:
