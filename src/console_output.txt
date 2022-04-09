@@ -19,14 +19,13 @@ Choice = 1
 ---------------------------------------------------------------------
 |     ID       |         Title        |   Quantity   |     Price    |
 ---------------------------------------------------------------------
-| P03          | Sugar                | 12           | 25.1         |
+| 4            | 4                    | 4            | 4.0          |
 | P01          | Miliket              | 10           | 5.2          |
 | P02          | Apple                | 5            | 4.3          |
+| P03          | Sugar                | 12           | 25.1         |
+| P04          | Book                 | 9            | 5.2          |
 | P05          | Rose                 | 7            | 15.4         |
 | P07          | Beer                 | 11           | 12.2         |
-| P04          | Book                 | 9            | 5.2          |
-| 3            | 3                    | 3            | 3.0          |
-| 4            | 4                    | 4            | 4.0          |
 ---------------------------------------------------------------------
 
 Successfully!
@@ -45,13 +44,10 @@ Choose one of these options:
 		10. Load to queue and display.
 		0. Exit
 
-Choice = 2
+Choice = 8
 
-2. Input & add to the end
-Input new ID: 5
-Input Product's Name: 5
-Input Product's quantity: 5
-Input Product's price: 5.0
+8. Convert to Binary
+Quantity = 4 => (100)
 
 Choose one of these options:
 	Product list:
@@ -67,22 +63,29 @@ Choose one of these options:
 		10. Load to queue and display.
 		0. Exit
 
-Choice = 3
+Choice = 1
 
-3. Display data
+1. Load data from file and display
 ---------------------------------------------------------------------
 |     ID       |         Title        |   Quantity   |     Price    |
 ---------------------------------------------------------------------
-| P03          | Sugar                | 12           | 25.1         |
+| 4            | 4                    | 4            | 4.0          |
 | P01          | Miliket              | 10           | 5.2          |
 | P02          | Apple                | 5            | 4.3          |
+| P03          | Sugar                | 12           | 25.1         |
+| P04          | Book                 | 9            | 5.2          |
 | P05          | Rose                 | 7            | 15.4         |
 | P07          | Beer                 | 11           | 12.2         |
-| P04          | Book                 | 9            | 5.2          |
-| 3            | 3                    | 3            | 3.0          |
 | 4            | 4                    | 4            | 4.0          |
-| 5            | 5                    | 5            | 5.0          |
+| P01          | Miliket              | 10           | 5.2          |
+| P02          | Apple                | 5            | 4.3          |
+| P03          | Sugar                | 12           | 25.1         |
+| P04          | Book                 | 9            | 5.2          |
+| P05          | Rose                 | 7            | 15.4         |
+| P07          | Beer                 | 11           | 12.2         |
 ---------------------------------------------------------------------
+
+Successfully!
 
 Choose one of these options:
 	Product list:
@@ -98,11 +101,10 @@ Choose one of these options:
 		10. Load to queue and display.
 		0. Exit
 
-Choice = 4
+Choice = 8
 
-4. Save product list to file
-
-Successfully!
+8. Convert to Binary
+Quantity = 4 => (100)
 
 Choose one of these options:
 	Product list:
@@ -121,118 +123,8 @@ Choose one of these options:
 Choice = 5
 
 5. Search by ID
-Input the ID to search = P02
-Result: | P02          | Apple                | 5            | 4.3          |
-
-Choose one of these options:
-	Product list:
-		1. Load data from file and display.
-		2. Input & add to the end.
-		3. Display data.
-		4. Save product list to file.
-		5. Search by ID.
-		6. Delete by ID.
-		7. Sort by ID.
-		8. Convert to Binary.
-		9. Load to stack and display.
-		10. Load to queue and display.
-		0. Exit
-
-Choice = 4
-
-4. Save product list to file
-
-Successfully!
-
-Choose one of these options:
-	Product list:
-		1. Load data from file and display.
-		2. Input & add to the end.
-		3. Display data.
-		4. Save product list to file.
-		5. Search by ID.
-		6. Delete by ID.
-		7. Sort by ID.
-		8. Convert to Binary.
-		9. Load to stack and display.
-		10. Load to queue and display.
-		0. Exit
-
-Choice = 5
-
-5. Search by ID
-Input the ID to search = 3
-Result: | 3            | 3                    | 3            | 3.0          |
-
-Choose one of these options:
-	Product list:
-		1. Load data from file and display.
-		2. Input & add to the end.
-		3. Display data.
-		4. Save product list to file.
-		5. Search by ID.
-		6. Delete by ID.
-		7. Sort by ID.
-		8. Convert to Binary.
-		9. Load to stack and display.
-		10. Load to queue and display.
-		0. Exit
-
-Choice = 6
-
-6. Delete by ID
-Input the bcode to delete = 3
-Deleted!
-
-Choose one of these options:
-	Product list:
-		1. Load data from file and display.
-		2. Input & add to the end.
-		3. Display data.
-		4. Save product list to file.
-		5. Search by ID.
-		6. Delete by ID.
-		7. Sort by ID.
-		8. Convert to Binary.
-		9. Load to stack and display.
-		10. Load to queue and display.
-		0. Exit
-
-Choice = 7
-
-7. Sort by ID
-
-Successfully!
-
-Choose one of these options:
-	Product list:
-		1. Load data from file and display.
-		2. Input & add to the end.
-		3. Display data.
-		4. Save product list to file.
-		5. Search by ID.
-		6. Delete by ID.
-		7. Sort by ID.
-		8. Convert to Binary.
-		9. Load to stack and display.
-		10. Load to queue and display.
-		0. Exit
-
-Choice = 3
-
-3. Display data
----------------------------------------------------------------------
-|     ID       |         Title        |   Quantity   |     Price    |
----------------------------------------------------------------------
-| 4            | 4                    | 4            | 4.0          |
-| 5            | 5                    | 5            | 5.0          |
-| P01          | Miliket              | 10           | 5.2          |
-| P02          | Apple                | 5            | 4.3          |
-| P03          | Sugar                | 12           | 25.1         |
-| P04          | Book                 | 9            | 5.2          |
-| P05          | Rose                 | 7            | 15.4         |
-| P07          | Beer                 | 11           | 12.2         |
----------------------------------------------------------------------
+Input the ID to search = 4
+Result: | 4            | 4                    | 4            | 4.0          |
 
 Choose one of these options:
 	Product list:
@@ -287,21 +179,51 @@ Choose one of these options:
 		10. Load to queue and display.
 		0. Exit
 
-Choice = 9
+Choice = 2
 
-9. Load to stack and display
----------------------------------------------------------------------
-|     ID       |         Title        |   Quantity   |     Price    |
----------------------------------------------------------------------
-| P07          | Beer                 | 11           | 12.2         |
-| P05          | Rose                 | 7            | 15.4         |
-| P04          | Book                 | 9            | 5.2          |
-| P03          | Sugar                | 12           | 25.1         |
-| P02          | Apple                | 5            | 4.3          |
-| P01          | Miliket              | 10           | 5.2          |
-| 5            | 5                    | 5            | 5.0          |
-| 4            | 4                    | 4            | 4.0          |
----------------------------------------------------------------------
+2. Input & add to the end
+Input new ID: 5
+Input Product's Name: 5
+Input Product's quantity: 5
+Input Product's price: 5.0
+
+Choose one of these options:
+	Product list:
+		1. Load data from file and display.
+		2. Input & add to the end.
+		3. Display data.
+		4. Save product list to file.
+		5. Search by ID.
+		6. Delete by ID.
+		7. Sort by ID.
+		8. Convert to Binary.
+		9. Load to stack and display.
+		10. Load to queue and display.
+		0. Exit
+
+Choice = 6
+
+6. Delete by ID
+Input the bcode to delete = 4
+Deleted!
+
+Choose one of these options:
+	Product list:
+		1. Load data from file and display.
+		2. Input & add to the end.
+		3. Display data.
+		4. Save product list to file.
+		5. Search by ID.
+		6. Delete by ID.
+		7. Sort by ID.
+		8. Convert to Binary.
+		9. Load to stack and display.
+		10. Load to queue and display.
+		0. Exit
+
+Choice = 7
+
+7. Sort by ID
 
 Successfully!
 
@@ -319,23 +241,27 @@ Choose one of these options:
 		10. Load to queue and display.
 		0. Exit
 
-Choice = 10
+Choice = 3
 
-10. Load to queue and display
+3. Display data
 ---------------------------------------------------------------------
 |     ID       |         Title        |   Quantity   |     Price    |
 ---------------------------------------------------------------------
 | 4            | 4                    | 4            | 4.0          |
 | 5            | 5                    | 5            | 5.0          |
 | P01          | Miliket              | 10           | 5.2          |
+| P01          | Miliket              | 10           | 5.2          |
+| P02          | Apple                | 5            | 4.3          |
 | P02          | Apple                | 5            | 4.3          |
 | P03          | Sugar                | 12           | 25.1         |
+| P03          | Sugar                | 12           | 25.1         |
+| P04          | Book                 | 9            | 5.2          |
 | P04          | Book                 | 9            | 5.2          |
 | P05          | Rose                 | 7            | 15.4         |
+| P05          | Rose                 | 7            | 15.4         |
+| P07          | Beer                 | 11           | 12.2         |
 | P07          | Beer                 | 11           | 12.2         |
 ---------------------------------------------------------------------
-
-Successfully!
 
 Choose one of these options:
 	Product list:
@@ -351,5 +277,78 @@ Choose one of these options:
 		10. Load to queue and display.
 		0. Exit
 
-Choice = 0
-Thanks!!!
+Choice = 6
+
+6. Delete by ID
+Input the bcode to delete = 4
+Deleted!
+
+Choose one of these options:
+	Product list:
+		1. Load data from file and display.
+		2. Input & add to the end.
+		3. Display data.
+		4. Save product list to file.
+		5. Search by ID.
+		6. Delete by ID.
+		7. Sort by ID.
+		8. Convert to Binary.
+		9. Load to stack and display.
+		10. Load to queue and display.
+		0. Exit
+
+Choice = 3
+
+3. Display data
+---------------------------------------------------------------------
+|     ID       |         Title        |   Quantity   |     Price    |
+---------------------------------------------------------------------
+| 5            | 5                    | 5            | 5.0          |
+| P01          | Miliket              | 10           | 5.2          |
+| P01          | Miliket              | 10           | 5.2          |
+| P02          | Apple                | 5            | 4.3          |
+| P02          | Apple                | 5            | 4.3          |
+| P03          | Sugar                | 12           | 25.1         |
+| P03          | Sugar                | 12           | 25.1         |
+| P04          | Book                 | 9            | 5.2          |
+| P04          | Book                 | 9            | 5.2          |
+| P05          | Rose                 | 7            | 15.4         |
+| P05          | Rose                 | 7            | 15.4         |
+| P07          | Beer                 | 11           | 12.2         |
+| P07          | Beer                 | 11           | 12.2         |
+---------------------------------------------------------------------
+
+Choose one of these options:
+	Product list:
+		1. Load data from file and display.
+		2. Input & add to the end.
+		3. Display data.
+		4. Save product list to file.
+		5. Search by ID.
+		6. Delete by ID.
+		7. Sort by ID.
+		8. Convert to Binary.
+		9. Load to stack and display.
+		10. Load to queue and display.
+		0. Exit
+
+Choice = 8
+
+8. Convert to Binary
+Quantity = 5 => (101)
+
+Choose one of these options:
+	Product list:
+		1. Load data from file and display.
+		2. Input & add to the end.
+		3. Display data.
+		4. Save product list to file.
+		5. Search by ID.
+		6. Delete by ID.
+		7. Sort by ID.
+		8. Convert to Binary.
+		9. Load to stack and display.
+		10. Load to queue and display.
+		0. Exit
+
+Choice = 

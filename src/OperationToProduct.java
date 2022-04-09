@@ -5,7 +5,7 @@ import java.util.Scanner;
  * This class manages all functions relate to the product
  */
 public class OperationToProduct {
-    static String binary = "";
+
     static Scanner scanner = new Scanner(System.in);
 
 
@@ -301,13 +301,12 @@ public class OperationToProduct {
      * {0, 1, 0, 0, 0, 1}
      *
      * @param i Input decimal number
-     * @return String of binary numbers
+     * @return int of binary numbers
      */
-    public String convertToBinary(int i) {
-        if (i > 0) {
-            binary = (i % 2) + binary;
-            convertToBinary(i / 2);
-        }
-        return binary;
+    public int convertToBinary(int i) {
+        if (i == 0)
+            return 0;
+        else
+            return (i % 2 + 10 * convertToBinary(i / 2));
     }
 }
